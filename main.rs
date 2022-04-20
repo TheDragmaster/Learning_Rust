@@ -1,8 +1,5 @@
-fn main()
-{
-    let x: u32 = 4;
+mod print;
 
-    println!("Hello, World!, {}", x);
-
-    return;
+fn main() {
+    print::run();
 }
